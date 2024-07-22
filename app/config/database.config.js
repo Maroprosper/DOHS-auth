@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { DEV_DATABASE_HOST, DEV_DATABASE_USERNAME, DEV_DATABASE_PASSWORD, DEV_DATABASE_PORT } = process.env;
+const { DEV_DATABASE_HOST, DEV_DATABASE_USERNAME, DEV_DATABASE_PASSWORD, DEV_DATABASE_PORT, DEV_DATABASE_NAME } = process.env;
 
 module.exports = {
   development: {
