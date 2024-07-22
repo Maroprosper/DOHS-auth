@@ -5,7 +5,7 @@ module.exports = {
   development: {
     username: DEV_DATABASE_USERNAME,
     password: DEV_DATABASE_PASSWORD,
-    database: "dohs",
+    database: DEV_DATABASE_NAME,
     port: DEV_DATABASE_PORT,
     host: DEV_DATABASE_HOST,
     dialect: "postgres",
@@ -13,7 +13,7 @@ module.exports = {
   test: {
     username: DEV_DATABASE_USERNAME,
     password: DEV_DATABASE_PASSWORD,
-    database: "dohs",
+    database: DEV_DATABASE_NAME,
     port: DEV_DATABASE_PORT,
     host: DEV_DATABASE_HOST,
     dialect: "postgres",
@@ -21,7 +21,7 @@ module.exports = {
   production: {
     username: DEV_DATABASE_USERNAME,
     password: DEV_DATABASE_PASSWORD,
-    database: "dohs",
+    database: DEV_DATABASE_NAME,
     port: DEV_DATABASE_PORT,
     host: DEV_DATABASE_HOST,
     dialect: "postgres",
